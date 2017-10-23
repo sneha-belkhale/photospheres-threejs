@@ -10,13 +10,17 @@ overflow: hidden;
     top: 30px;
     left: 30px;
     width: 20%;
-    height: 90%;
     background-color: white;
     opacity: 0.5;
     text-align: justify;
     padding: 20px;
     line-height: 20px;
 }
+#blogtext a {
+  color: black;
+  opacity: 0.5;
+}
+
 #nextbutton {
     position: absolute;
     top: 50%;
@@ -32,13 +36,19 @@ overflow: hidden;
     cursor : pointer;
     outline : 0px;
 }
-
-#cutebox {
-  position: absolute;
-  top: 13%;
-  height: 80%;
-  width : 100%;
-  z-index: 1;
-  /*opacity: 0.01;*/
-  font-size: 400px;
+#backbutton {
+    position: absolute;
+    top: 50%;
+    right: 90%;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: gray;
+    font: Arial;
+    font-style: bold;
+    z-index: 2;
+    cursor : pointer;
+    outline : 0px;
+    display: none;
 }
